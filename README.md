@@ -72,17 +72,19 @@ Evaluate on a test set with accuracy and classification report
 
 📈 Model Performance
 Example output:
-RF Accuracy: 0.92
+
+RF Accuracy: 0.9349295230739525
 
 Classification Report:
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-       False       0.91      0.93      0.92      5000
-        True       0.93      0.90      0.91      5000
+       False       0.93      0.95      0.94      2890
+        True       0.94      0.91      0.93      2289
 
-    accuracy                           0.92     10000
-   macro avg       0.92      0.92      0.92     10000
-weighted avg       0.92      0.92      0.92     10000
+    accuracy                           0.93      5179
+   macro avg       0.94      0.93      0.93      5179
+weighted avg       0.94      0.93      0.93      5179
+
 
 
 🔮 Passenger Satisfaction Prediction
