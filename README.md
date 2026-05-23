@@ -1,10 +1,10 @@
 # Airline Passenger Satisfaction Prediction
 
 ## Overview
-This project predicts airline passenger satisfaction from demographic, travel, and service-rating features. It uses a Random Forest classifier on a public airline satisfaction dataset and evaluates the model with accuracy and class-level metrics. The project is best understood as a focused applied machine learning notebook for tabular classification.
+I built this project to predict airline passenger satisfaction from demographic, travel, and service-rating features. It uses a Random Forest classifier on a public airline satisfaction dataset and evaluates the model with accuracy and class-level metrics. I treat the project as best understood as a focused applied machine learning notebook for tabular classification.
 
 ## Motivation
-Passenger satisfaction prediction is useful for practicing supervised learning on mixed categorical and numeric data. The project demonstrates preprocessing choices, model training, evaluation, and interpretation for a real-world style survey dataset. It also provides a foundation for later work on model robustness, subgroup performance, and feature importance.
+I used passenger satisfaction prediction for practicing supervised learning on mixed categorical and numeric data. I use the project to demonstrate preprocessing choices, model training, evaluation, and interpretation for a real-world style survey dataset. It also provides a foundation for later work on model robustness, subgroup performance, and feature importance.
 
 ## Dataset
 - **Source:** Kaggle Airline Passenger Satisfaction dataset.
@@ -22,7 +22,7 @@ Passenger satisfaction prediction is useful for practicing supervised learning o
 - Evaluated model performance using accuracy and a classification report.
 
 ## Results
-The notebook reports a Random Forest accuracy of **0.9349** on the test split.
+My notebook reports a Random Forest accuracy of **0.9349** on the test split.
 
 Classification report from the notebook:
 
@@ -35,11 +35,11 @@ Classification report from the notebook:
 - Survey-based service ratings are strong predictors of passenger satisfaction.
 - Random Forest performs well on this structured tabular dataset.
 - Both positive and negative satisfaction classes are predicted with balanced performance.
-- The project could be extended by analyzing which service categories contribute most to dissatisfaction.
+- I could extend this project by analyzing which service categories contribute most to dissatisfaction.
 
 ## Limitations
-- The notebook does not yet include cross-validation or hyperparameter tuning.
-- The project does not test fairness or subgroup robustness across passenger groups.
+- I do not yet include cross-validation or hyperparameter tuning.
+- I do not test fairness or subgroup robustness across passenger groups.
 - The dataset is observational and does not prove causal effects of specific service improvements.
 - Some feature engineering and preprocessing choices should be documented more deeply in future iterations.
 
@@ -60,4 +60,4 @@ pip install -r requirements.txt
 jupyter notebook notebooks/airline_satisfaction_random_forest.ipynb
 ```
 
-Run the notebook cells from top to bottom. The notebook expects the dataset at `data/airline_satisfaction.csv`.
+Run my notebook cells from top to bottom. I expect the dataset at `data/airline_satisfaction.csv`.
